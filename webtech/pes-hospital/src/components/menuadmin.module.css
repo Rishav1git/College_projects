@@ -1,0 +1,65 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .div {
+    background-color: #ffffff;
+    width: 1512px;
+    height: 367px;
+    position: relative;
+}
+
+.desktop .textwrapper4 {
+    position: absolute;
+    width: 208px;
+    top: 277px;
+    left: 381px;
+    font-family: "Inter-MediumItalic", Helvetica;
+    font-weight: 500;
+    font-style: italic;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .ellipse2 {
+    width: 186px;
+    height: 180px;
+    top: 63px;
+    left: 392px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.desktop .element {
+    position: absolute;
+    width: 222px;
+    height: 213px;
+    top: 47px;
+    left: 914px;
+    object-fit: cover;
+}
+
+
+
+
+.desktop .textwrapper6 {
+    position: absolute;
+    width: 198px;
+    top: 277px;
+    left: 934px;
+    font-family: "Inter-MediumItalic", Helvetica;
+    font-weight: 500;
+    font-style: italic;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}

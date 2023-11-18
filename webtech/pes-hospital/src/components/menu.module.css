@@ -1,0 +1,265 @@
+/* .desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .div {
+    background-color: #ffffff;
+    width: 1512px;
+    height: 367px;
+    position: relative;
+}
+
+.desktop .ellipse {
+    width: 212px;
+    height: 248px;
+    top: 28px;
+    left: 247px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.desktop .overlapgroup {
+    position: absolute;
+    width: 247px;
+    height: 295px;
+    top: 28px;
+    left: 0;
+}
+
+.desktop .img {
+    width: 247px;
+    height: 250px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+}
+
+.desktop .textwrapper {
+    position: absolute;
+    width: 160px;
+    top: 249px;
+    left: 36px;
+    font-family: "Inter-MediumItalic", Helvetica;
+    font-weight: 500;
+    font-style: italic;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .ellipse2 {
+    width: 186px;
+    height: 180px;
+    top: 63px;
+    left: 992px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.desktop .textwrapper2 {
+    position: absolute;
+    width: 160px;
+    top: 277px;
+    left: 273px;
+    font-family: "Inter-MediumItalic", Helvetica;
+    font-weight: 500;
+    font-style: italic;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .textwrapper3 {
+    position: absolute;
+    width: 160px;
+    top: 277px;
+    left: 517px;
+    font-family: "Inter-MediumItalic", Helvetica;
+    font-weight: 500;
+    font-style: italic;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .istockphoto {
+    position: absolute;
+    width: 195px;
+    height: 181px;
+    top: 62px;
+    left: 500px;
+    object-fit: cover;
+}
+
+.desktop .textwrapper4 {
+    position: absolute;
+    width: 208px;
+    top: 277px;
+    left: 981px;
+    font-family: "Inter-MediumItalic", Helvetica;
+    font-weight: 500;
+    font-style: italic;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .chemicallabtest {
+    position: absolute;
+    width: 225px;
+    height: 205px;
+    top: 50px;
+    left: 731px;
+    object-fit: cover;
+}
+
+.desktop .textwrapper5 {
+    position: absolute;
+    width: 140px;
+    top: 278px;
+    left: 773px;
+    font-family: "Inter-MediumItalic", Helvetica;
+    font-weight: 500;
+    font-style: italic;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .element {
+    position: absolute;
+    width: 222px;
+    height: 213px;
+    top: 47px;
+    left: 1214px;
+    object-fit: cover;
+}
+
+.desktop .textwrapper6 {
+    position: absolute;
+    width: 198px;
+    top: 277px;
+    left: 1234px;
+    font-family: "Inter-MediumItalic", Helvetica;
+    font-weight: 500;
+    font-style: italic;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+} */
+
+
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .div {
+    background-color: #ffffff;
+    width: 1512px;
+    height: 367px;
+    position: relative;
+}
+
+.desktop .overlapgroup {
+    position: absolute;
+    width: 247px;
+    height: 295px;
+    top: 28px;
+    left: 0;
+}
+
+.desktop .img {
+    width: 247px;
+    height: 250px;
+    top: 30;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+}
+
+.desktop .textwrapper {
+    position: absolute;
+    width: 160px;
+    top: 249px;
+    left: 36px;
+    font-family: "Inter-MediumItalic", Helvetica;
+    font-weight: 500;
+    font-style: italic;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.desktop .textwrapper4 {
+    position: absolute;
+    width: 208px;
+    top: 277px;
+    left: 620px;
+    font-family: "Inter-MediumItalic", Helvetica;
+    font-weight: 500;
+    font-style: italic;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .ellipse2 {
+    width: 186px;
+    height: 180px;
+    top: 63px;
+    left: 638px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.desktop .element {
+    position: absolute;
+    width: 222px;
+    height: 213px;
+    top: 47px;
+    left: 1214px;
+    object-fit: cover;
+}
+
+
+
+
+.desktop .textwrapper6 {
+    position: absolute;
+    width: 198px;
+    top: 277px;
+    left: 1234px;
+    font-family: "Inter-MediumItalic", Helvetica;
+    font-weight: 500;
+    font-style: italic;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
