@@ -1,7 +1,7 @@
 import ply.lex as lex
 import ply.yacc as yacc
-from lex import *
-from yacc import *
+from lex_array import *
+from yacc_array import *
 
 lexer = lex.lex()
 parser = yacc.yacc()
