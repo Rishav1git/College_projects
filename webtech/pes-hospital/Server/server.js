@@ -12,6 +12,7 @@ const dbName = 'User';
 const collectionName = 'Ambulance';
 const collectionName2 = 'Appointment';
 const collectionName3 = 'admin';
+const collectionName4 = 'Doctor';
 
 app.use(cors());
 app.use(express.json());
@@ -140,6 +141,27 @@ app.get('/api/appointment-request', async (req, res) => {
     res.json(ambulanceRequests);
   } catch (error) {
     console.error('Error fetching ambulance requests:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  } finally {
+    if (client) {
+      await client.close();
+    }
+  }
+});
+
+app.get('/api/doctors', async (req, res) => {
+  let client;
+
+  try {
+    client = await MongoClient.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
+    const db = client.db(dbName);
+    const collection = db.collection(collectionName4);
+
+    const doctors = await collection.find().toArray();
+
+    res.json(doctors);
+  } catch (error) {
+    console.error('Error fetching doctors:', error);
     res.status(500).json({ error: 'Internal Server Error' });
   } finally {
     if (client) {

@@ -102,20 +102,7 @@
   white-space: nowrap;
 }
 
-.desktop .textwrapper4 {
-  position: absolute;
-  width: 195px;
-  top: 18px;
-  left: 701px;
-  font-family: "Inter-MediumItalic", Helvetica;
-  font-weight: 500;
-  font-style: italic;
-  color: #000000;
-  font-size: 32px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
+
 
 .desktop .element {
   position: absolute;

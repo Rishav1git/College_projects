@@ -15,21 +15,20 @@ import Pharmacy from './components/pharmacy';
 import Consultation from './components/consultation';
 import About from './components/about';
 import Rad from './components/rad';
-import Departments from './components/deprtments';
 import Contact from './components/contactus';
 import Register from './components/Appointment.js';
 import Announcement from './components/announcement';
 import Admin from './components/Admin.js';
-import Ambulance_admin from './components/Ambulance_admin.js';
-import Consultation_admin from './components/consultation_admin.js';
+import AmbulanceAdmin from './components/Ambulance_admin.js';
+import ConsultationAdmin from './components/consultation_admin.js';
 
 function App() {
  return (
    <Router>
      <Routes>
      <Route path="/Admin" element={<><Admin/></>} />
-     <Route path="/Ambulance_admin" element={<><Ambulance_admin/></>} />
-     <Route path="/consultation_admin" element={<><Consultation_admin/></>} />
+     <Route path="/Ambulance_admin" element={<><AmbulanceAdmin/></>} />
+     <Route path="/consultation_admin" element={<><ConsultationAdmin/></>} />
        <Route path="/" element={<><Main/><Menu/></>} />
        <Route path="/Doctor_detail" element={<Doctor/>} />
        <Route path="/patient" element={<Patient/>} />
@@ -40,7 +39,6 @@ function App() {
        <Route path="/about" element={<About/>} />
        <Route path="/contactus" element={<Contact/>} />
        <Route path="/rad" element={<Rad/>} />
-       <Route path="/departments" element={<Departments/>} />
        <Route path="/admin_login" element={<><Login/></>} />
        <Route path="/announcement" element={<Announcement/>} />
        <Route path="/registration" element={<><Main/><Register/></>} />
