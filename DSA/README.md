@@ -1,3 +1,6 @@
+This is a Mini Project Made by me
+In this i made a simple maze solver using graphs traversal method
+
 //Data structure used:
 1. queue 
 2. graphs(BFS TRAVERSAL)
@@ -18,3 +21,7 @@
     struct Point end = { 5, 5 }; */
 
 Here( '#' refers to wall , '.'refers to path)
+
+Note : This is Just the Mini project so  real maze solver functionalities may vary from This
+
+Author : Rishav Kumar Agrawal

@@ -1,3 +1,44 @@
+This is the Mini Project by me 
+In this i made a PES HOSPITAL website 
+
+Which have the functionalites like:
+1. Calling Ambulance 
+2. Book Ampointment 
+3. See the Doctor Details
+4. Access Admin Page(By pressing PES logo)
+5. see the Details of Ambulance reuqest ,Appointment Details And able to take action
+
+Developed Using MERN stack
+
+Requirments to run this 
+Node js, react app , mongodb, express (Node js and all other intallation to be done carefully to run this otherwise it may give errors)
+
+For Running server Requirments installation commands
+npm i mongodb
+npm i express
+npm i  cors
+
+some instruction for mongodb
+connected to mongodb Using localhost27017 
+u have to create admin collection other collection will be created automatically when u rin the server and put some data into it
+it is advisable to craete database with name User yourself
+
+for client side some installation commands(may be some installation commands are missed)
+npm i react-router-dom (check with the version of this this is the version used in november 2023)
+
+to start the website run command 
+npm start (pes hospital folder)
+for starting server
+node server.js(inside the server folder)
+
+Note : This is the Mini Project so realwebsite functionalites and design may vary
+
+Author : Rishav Kumar Agrawal
+
+
+
+SOME INSTRUCTION AT THE TIME OF BUILDING REACT APP GIVEN BY SYSTEM
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +109,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Author : Rishav Kumar Agrawal
